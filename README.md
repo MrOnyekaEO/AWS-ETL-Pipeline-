@@ -1,5 +1,8 @@
 # AWS-ETL-Pipeline
 ---
+## Pipeline Architecture
+! [Alt text](Sportify ETL data pipeline Architecture.png)
+---
 Data Engineering Project Pipeline that incorporates AWS IAM, Amazon S3, AWS Glue, Amazon Athena, and Amazon QuickSight. This pipeline covers the entire flow from data ingestion to visualization, highlighting the role of IAM in securing the process.
 ## Data Engineering Project Pipeline
 
