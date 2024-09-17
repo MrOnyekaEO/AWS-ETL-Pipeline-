@@ -1,12 +1,14 @@
 # AWS-ETL-Pipeline
 ---
-Data Engineering Project Pipeline that incorporates AWS IAM, Amazon S3, AWS Glue, Amazon Athena, and Amazon QuickSight. This pipeline covers the entire flow from data ingestion to visualization, highlighting the role of IAM in securing the process.
+Data Engineering Project Pipeline that incorporates AWS IAM, Amazon S3, AWS Glue, Amazon Athena, and Amazon QuickSight. This pipeline covers the entire flow from data ingestion to visualization, highlighting the role of AWS IAM in securing the process.
 ---
 ## Pipeline Architecture
 ![Sportify ETL data pipeline Architecture](https://github.com/user-attachments/assets/687dff18-cff7-4371-ad51-b2c3f013eb82)
 ---
-
-## Steps
+## Data Source
+Kaggle Spotify Dataset 2023 - (https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
+---
+## **Steps**
 
 ### 1. **AWS IAM (Identity and Access Management)**
 - **Purpose**: Manage access and permissions for AWS services.
