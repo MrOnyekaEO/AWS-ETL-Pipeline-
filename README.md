@@ -1,10 +1,12 @@
 # AWS-ETL-Pipeline
 ---
-## Pipeline Architecture
-! [Alt text](Sportify ETL data pipeline Architecture.png)
----
 Data Engineering Project Pipeline that incorporates AWS IAM, Amazon S3, AWS Glue, Amazon Athena, and Amazon QuickSight. This pipeline covers the entire flow from data ingestion to visualization, highlighting the role of IAM in securing the process.
-## Data Engineering Project Pipeline
+---
+## Pipeline Architecture
+![Sportify ETL data pipeline Architecture](https://github.com/user-attachments/assets/687dff18-cff7-4371-ad51-b2c3f013eb82)
+---
+
+## Steps
 
 ### 1. **AWS IAM (Identity and Access Management)**
 - **Purpose**: Manage access and permissions for AWS services.
@@ -27,6 +29,10 @@ Data Engineering Project Pipeline that incorporates AWS IAM, Amazon S3, AWS Glue
   - **Create Glue Jobs**:
     - Write ETL scripts using Pyspark to transform data.
     - Create a visual ETL, run and monitor ETL (Pspark scripts)
+    
+      ![Sportify ETL Visual](https://github.com/user-attachments/assets/71216815-c840-4c82-a344-41deb7442531)
+
+      
   - **Use Glue Crawlers**:
     - Automatically discover and categorize data in S3.
     - Create a **database** in the Glue Data Catalog.
